@@ -1,0 +1,33 @@
+{
+    "name": "pjpawel/timeout-exec",
+    "description": "Lightweight library to kill task after set period ",
+    "keywords": ["timeout", "exec", "task", "lightweight", "shell_exec"],
+    "homepage": "https://github.com/pjpawel/timeout-exec",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paweł Podgórski",
+            "email": "pawel.jan.podgorski@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "pjpawel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.20"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit ."
+    }
+}
